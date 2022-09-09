@@ -1,5 +1,3 @@
--- https://rscripts.net/script/TPS--Street-Soccer-Script-or-Reach-2800 -- DO NOT USE THIS SCRIPT BELOW ME, IT WONT WORK--
--- GO TO: https://rscripts.net/script/TPS--Street-Soccer-Script-or-Reach-2800 --
 game["RunService"].Stepped:Connect(function()
 	if Leg == "Left" and game:GetService("Players").LocalPlayer.Character ~= nil and game:GetService("Players").LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R15 then
 		if (workspace.TPSSystem.TPS.Position - game.Players.LocalPlayer.Character:WaitForChild("LeftLowerLeg").Position).Magnitude <= Reach then
